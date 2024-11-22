@@ -1,0 +1,21 @@
+/*Name:- Faiyaz shaikh
+UIN:-241A042
+Roll No.:-34
+WAP to find the number is even or odd
+*/
+#include<stdio.h>
+int main()
+{
+ int num;
+printf("Enter Number:");
+scanf("%d",&num);
+if(num%2==0)
+{
+ printf("%d is Even",num);
+}
+else
+ {
+ printf("%d is Odd",num);
+}
+return 0;
+}
